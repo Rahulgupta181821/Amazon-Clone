@@ -69,13 +69,11 @@
    border: none;
    padding-left: 12px;
 }
-.search-select:active{
-    width:80px;
-}
 .search-input{
     width:100%;
     font-size: 1rem;
     border:none;
+    outline: 0px;
 }
 
 .search-icon{
@@ -92,6 +90,9 @@
 
 .nav-search:hover{
   border: 2px solid orange;
+}
+.search-icon:hover{
+    background-color: #f39d2c;
 }
 /* box 4 */
 span{
